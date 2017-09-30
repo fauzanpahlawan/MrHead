@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello Mr. Head!</string>
+    <string name="beard">Beard</string>
+    <string name="head">Head</string>
+    <string name="hair">Hair</string>
+    <string name="eye_brow">Eye Brow</string>
+    <string name="eyes">Eyes</string>
+    <string name="nose">Nose</string>
+    <string name="moustache">Moustache</string>
+</resources>

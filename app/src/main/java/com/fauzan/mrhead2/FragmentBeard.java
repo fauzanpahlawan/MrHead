@@ -51,26 +51,26 @@ public class FragmentBeard extends Fragment implements View.OnClickListener {
                 break;
             case R.id.buttonBeardMoustacheHeavy:
                 clearAll();
-                buttonBeards[0].setBackgroundColor(Color.LTGRAY);
-                buttonBeards[0].invalidate();
+                buttonBeards[1].setBackgroundColor(Color.LTGRAY);
+                buttonBeards[1].invalidate();
                 setBeard(R.drawable.beardmoustacheheavy, View.VISIBLE);
                 break;
             case R.id.buttonBeardMoustacheNormal:
                 clearAll();
-                buttonBeards[0].setBackgroundColor(Color.LTGRAY);
-                buttonBeards[0].invalidate();
+                buttonBeards[2].setBackgroundColor(Color.LTGRAY);
+                buttonBeards[2].invalidate();
                 setBeard(R.drawable.beardmoustachenormal, View.VISIBLE);
                 break;
             case R.id.buttonBeardShaved:
                 clearAll();
-                buttonBeards[0].setBackgroundColor(Color.LTGRAY);
-                buttonBeards[0].invalidate();
+                buttonBeards[3].setBackgroundColor(Color.LTGRAY);
+                buttonBeards[3].invalidate();
                 setBeard(R.drawable.beardshaved, View.VISIBLE);
                 break;
             case R.id.buttonBeardSingleHair:
                 clearAll();
-                buttonBeards[0].setBackgroundColor(Color.LTGRAY);
-                buttonBeards[0].invalidate();
+                buttonBeards[4].setBackgroundColor(Color.LTGRAY);
+                buttonBeards[4].invalidate();
                 setBeard(R.drawable.beardsinglehair, View.VISIBLE);
                 break;
         }
